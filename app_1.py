@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1lZXhrDQKHv83S7o8PeqLuWSR7gTMr312
 """
 
-# pip install transformers, streamlit, tensorflow, sentence_transformers
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -36,7 +34,7 @@ def main():
 
     st.sidebar.header("SurveySage")
     # Display the logo
-    logo_path = "/Users/daviesha/Desktop/DATA 5420/Homework/Final/Streamlit_App/icon.png"
+    logo_path = "icon.png"
     logo = Image.open(logo_path)
     st.sidebar.image(logo, use_container_width = True)
 
