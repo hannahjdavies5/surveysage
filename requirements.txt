@@ -6,3 +6,4 @@ Pillow
 nltk
 sentence-transformers
 scikit-learn
+transformers
