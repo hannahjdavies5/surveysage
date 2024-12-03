@@ -21,7 +21,7 @@ from nltk.tokenize.toktok import ToktokTokenizer
 tokenizer = ToktokTokenizer()
 from nltk import word_tokenize
 nltk.download('punkt', force=True)
-#nltk.download('punkt_tab')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
