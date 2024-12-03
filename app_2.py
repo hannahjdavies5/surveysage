@@ -19,7 +19,7 @@ from nltk.tokenize.toktok import ToktokTokenizer
 tokenizer = ToktokTokenizer()
 from nltk import word_tokenize
 nltk.download('punkt', force=True)
-#nltk.download('punkt_tab')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
@@ -31,7 +31,7 @@ def main():
 
     st.sidebar.header("SurveySage")
     # Display the logo
-    logo_path = "/Users/daviesha/Desktop/DATA 5420/Homework/Final/Streamlit_App/icon.png"
+    logo_path = "icon.png"
     logo = Image.open(logo_path)
     st.sidebar.image(logo, use_container_width = True)
 
